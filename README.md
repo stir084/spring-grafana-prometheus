@@ -4,8 +4,8 @@ grafana-prometheus sample for windows 10
 
 # 설치
 
-https://grafana.com/grafana/download?platform=windows
-https://prometheus.io/download/
+https://grafana.com/grafana/download?platform=windows   
+https://prometheus.io/download/   
 
 # Prometheus 설정
 
