@@ -28,19 +28,19 @@ localhost:3000으로 접속 가능
 초기비번은 admin admin   
 
 # 백엔드 설정
-
+```javascript
 implementation 'org.springframework.boot:spring-boot-starter-actuator'
 implementation 'org.springframework.boot:spring-boot-starter-web'
 implementation 'io.micrometer:micrometer-registry-prometheus'
-
-
+```
+```javascript
 management.endpoints.web.exposure.include=*
 server.tomcat.mbeanregistry.enabled=true
 management.endpoint.health.show-details=always
 
 management.prometheus.metrics.export.enabled=true
 management.metrics.export.prometheus.path=/prometheus
-
+```
 # 3개의 서버가 잘 붙었는지 확인하기 
 
 localhost:9090에 들어가서 status -> target으로 들어가서 Prometheus 서버와 백엔드 서버가 연결되어 있는지 확인한다.   
