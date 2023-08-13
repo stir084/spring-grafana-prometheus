@@ -63,4 +63,7 @@ Prometheus 클릭 후 url에 http://host.docker.internal:9090/ 입력한다.
 
 ![image](https://github.com/stir084/spring-grafana-prometheus/assets/47946124/5582dd19-dad8-4ea4-91ab-97eae1b2d0d7)
 
-
+peak은 최고 스레드 개수   
+live는 살아있는 스레드 개수   
+deamon은 백그라운드에서 보조 작업을 수행하는 스레드(GC, 메모리 관리 등)   
+즉, live 개수에 deamon 개수를 빼면 요청자가 대충 몇명인지 알 수도 있다.   
