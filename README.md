@@ -51,3 +51,7 @@ Prometheus 클릭 후 url에 http://host.docker.internal:9090/ 입력한다.
 
 ![image](https://github.com/stir084/spring-grafana-prometheus/assets/47946124/c774b66d-184c-4ee6-8ec8-cdaad917b1c6)
 
+
+![image](https://github.com/stir084/spring-grafana-prometheus/assets/47946124/5582dd19-dad8-4ea4-91ab-97eae1b2d0d7)
+
+
