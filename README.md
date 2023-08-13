@@ -45,8 +45,14 @@ management.metrics.export.prometheus.path=/prometheus
 ```
 # 3개의 서버가 잘 붙었는지 확인하기 
 
-http://localhost:8080/actuator/prometheus 으로 접속 후 promethe
+## backend <-> prometheus   
+
+http://localhost:8080/actuator/prometheus 으로 접속이 되면 prometheous 로그가 잘 보인다.   
 localhost:9090에 들어가서 status -> target으로 들어가서 Prometheus 서버와 백엔드 서버가 연결되어 있는지 확인한다.   
+연결 상태가 up인 경우에 잘 붙은 것이며 좌측 주소를 클릭하면 위에 http://localhost:8080/actuator/prometheus에 접속한 것과 동일한 로그가 보인다.   
+
+## prometheus <-> grafana   
+
 grafana에서 초기 화면에서 Add you first Datasource 클릭   
 Prometheus 클릭 후 url에 http://host.docker.internal:9090/ 입력한다.   
 우측 위 상단에 import dashboard로 id가 4701인 대쉬보드를 검색 후 만들어놓은 datasource를 추가하면 완료.   
