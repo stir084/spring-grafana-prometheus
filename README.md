@@ -20,6 +20,7 @@ scrape_configs:
 # Prometheus 실행
 
 설치 폴더 prometheus-2.46.0.windows-amd64 밑에 prometheus.exe 실행   
+localhost:9090으로 접속 가능   
 
 # grafana 실행
 
